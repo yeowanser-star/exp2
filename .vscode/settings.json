@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-NoExit", "-Command", "chcp 65001"]
+        },
+        "Command Prompt": {
+            "path": "cmd.exe",
+            "args": ["/K", "chcp 65001"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "code-runner.terminalRoot": "/",
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "cmath": "cpp"
+    }
+}
